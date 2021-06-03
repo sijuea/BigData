@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gmall_logger:Web exploded">
+    <output-path>$PROJECT_DIR$/$12gmall-realtime/outr/artifacts/gmall_logger_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="gmall_logger/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gmall_logger" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

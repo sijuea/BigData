@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.demo.mapper.GMVMapper">
+    <select id="selectGMV" resultType="double">
+        select
+            sum(total_amount) sum_amount
+        from GMALL2021_ORDER_INFO
+        where create_date=#{date}
+
+    </select>
+
+    <select id="selectGMVByHour" resultType="com.demo.entity.GMVPreHour">
+        select create_hour hour ,
+            cast(sum(total_amount) as double) num
+        from GMALL2021_ORDER_INFO
+        where create_date=#{date}
+        group by create_hour
+    </select>
+
+
+</mapper>

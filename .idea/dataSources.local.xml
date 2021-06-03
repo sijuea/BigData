@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="hive" uuid="232dbcf6-1065-40de-b253-bae8ab3a6a9e">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="HIVE" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>atguigu</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="mysql" uuid="90a4f369-5c41-4936-8999-a743af0e2add">
+      <database-info product="MySQL" version="5.7.28-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="5.7.28" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="gmall" />
+            <name qname="gmall_report" />
+            <name qname="mysql" />
+            <name qname="sys" />
+            <name qname="test" />
+            <name qname="gmall_realtime" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="phoneix -hbase" uuid="368ceca8-5f15-4ebc-aea7-939028c33dc4">
+      <database-info product="Phoenix" version="5.0" jdbc-version="1.0" driver-name="PhoenixEmbeddedDriver" driver-version="5.0" dbms="PHOENIX" exact-version="5.0" exact-driver-version="5.0">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" negative="1">
+            <node kind="schema" negative="1" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

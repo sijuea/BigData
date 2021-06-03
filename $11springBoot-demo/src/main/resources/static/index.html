@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <h1>第一个页面</h1>
+    </br>
+    <!--
+        路径：
+            绝对路径：以/开头的;
+                /在html页面中会被翻译为http:localhost:8089
+                    html中/abc【从根路径访问abc】路径访问需要访问【需手动加上项目名】： localhost:8089/项目名/abc
+                /在java代码中翻译为http:localhost:8089/webapp 【区别在于是否携带项目名】
+                 【项目中要求使用相对路径】
+            相对路径：不以/开头的,相对的是当前页面的父路径
+
+    -->
+<!--    <a href="/webapp/t2">发送请求</a>-->
+    <!--分割线-->
+    <hr>
+    <form action="/webapp/user" method="post">
+
+        <!--表单中的属性名最好和对象中的属性名一致-->
+        <input name="op" value="delete" type="radio"> 删除
+        <input name="op" value="update" type="radio"> 更新
+        <input name="op" value="insert" type="radio"> 新增
+        </br>
+        <input name="id" value="1">
+        <input name="name" value="lisi">
+        <input name="age" value="12">
+        <input type="submit" value="提交"/>
+    </form>
+    <a href="/webapp/select" >查询提交</a>
+</body>
+</html>

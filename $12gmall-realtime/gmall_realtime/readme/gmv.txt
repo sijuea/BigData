@@ -1,0 +1,24 @@
+需求：交易额的统计
+1.来源:业务数据
+2.造业务数据
+    在mysql建表:
+        建库gmall_realtime;
+        建表插入数据(表、数据、函数、存储过程)
+            函数：关键字：function：有返回值的方法
+            存储过程：procedure：没有返回值的方法
+    模拟业务数据的产生：
+        1.语法：
+            调用存储过程：call  存储过程(参数列表)
+            调用函数：select 函数名（函数列表）
+        2.生成数据：
+            生成订单：
+             order_info、order_detail、payment_info都会插入数据
+            init_data('日期',订单数,新增的用户数,是否清空原表数据（true:清空；false：不清空）)
+                       init_data('2021-05-029',5,2,false)//生成5-29号数据，生成5比订单，两个用户，不请空原表数据
+                    ###order_info 和order_datail 是一对多
+                        order_info和payment_info 是一对一
+3.GMV
+    统一口径指标：从订单金额中求（不管是否下单成功或者支付成功）
+            order_info：total_amount
+4.使用canal将数据采集到kafka
+5.使用sparkStreaming 消费kafka数据，写到Hbase

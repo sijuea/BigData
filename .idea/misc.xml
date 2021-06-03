@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/$12realtime-project" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/$01hadoop/pom.xml" />
+        <option value="$PROJECT_DIR$/realtime-project/pom.xml" />
+        <option value="$PROJECT_DIR$/$11real-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/realtime-project/logger/pom.xml" />
+        <option value="$PROJECT_DIR$/$11springBoot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/$12realtime-project/gmall_logger/pom.xml" />
+        <option value="$PROJECT_DIR$/$12gmall-realtime/gmall_common/pom.xml" />
+        <option value="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/pom.xml" />
+        <option value="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/pom.xml" />
+        <option value="$PROJECT_DIR$/$12gmall-realtime/dw-chart/pom.xml" />
+        <option value="$PROJECT_DIR$/$12gmall-realtime/es-demo/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/$12gmall-realtime/dw_canal/pom.xml" />
+        <option value="$PROJECT_DIR$/$12realtime-project/test/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/$12gmall-realtime/outr" />
+  </component>
+</project>

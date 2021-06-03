@@ -1,0 +1,22 @@
+package com.demo;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * @author sijue
+ * 默认会扫描主启动类和当前子包
+ */
+@SpringBootApplication
+@MapperScan("com.demo.mapper")
+public class RealtimeProjectApplication   {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RealtimeProjectApplication.class, args);
+	}
+
+}

@@ -1,0 +1,1898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6c218c8-48e0-4bd6-8497-359935dcdb2b" name="Default Changelist" comment="大数据基本代码提交，一个技术一个包，bigData是所有$开始的工程的父工程">
+      <change afterPath="$PROJECT_DIR$/$01hadoop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$01hdfs/HDFSDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$01hdfs/HDFSDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$01hdfs/HdfsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combine/WCDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combine/WCMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combine/WCReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combiner/WCCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combiner/WCDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combiner/WCMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combiner/WCReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable/FlowDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable/FlowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable/FlowReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/FlowDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/FlowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/FlowReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/MyPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/compress/CompressTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/demo/ArgsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/demo/DebugDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/etl/ETLDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/etl/ETLMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/FlowCountDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/FlowCountMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/FlowCountReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/combiner/MapCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/partition/MyPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/sort/SortInnerPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/sort/SortMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/sort/SortMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/sort/SortReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/logetl/LogEtlDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/logetl/LogEtlMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/MapDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/MapMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/OrderDriverJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/OrderMapJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/FileRecordWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/LogDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/LogMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/LogReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/MyOutputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputformat/MyOutputFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputformat/MyRecordWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputformat/OutDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition/WCDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition/WCMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition/WCReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/FlowDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/FlowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/FlowReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/MyPatititoner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/ReduceDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/ReduceGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/ReduceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/ReduceReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCDriver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCDriver3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordCombineFileDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordcountDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordcountDriver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordcountDriver3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordcountDriver4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable2/FlowBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable2/FlowDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable2/FlowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable2/FlowReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/resources/hdfs/edit-new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/resources/hdfs/edit_ins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/resources/hdfs/fsimage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/main/resources/hdfs/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/test/java/com/demo/$02mapreduce/compress/CompressTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/test/java/com/demo/$02mapreduce/demo/UsuallyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$01hadoop/src/test/java/com/demo/HdfsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$02hive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$02hive/src/main/java/$03hive/kylin/KylinJDBCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$02hive/src/main/java/$03hive/udaf/MyUDAF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$02hive/src/main/java/$03hive/udf/MyLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$02hive/src/main/java/$03hive/udtf/ExplodeJSONString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$03zookeeper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$03zookeeper/src/main/java/$04zookeeper/ZKClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$03zookeeper/src/main/java/$04zookeeper/ZkServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$03zookeeper/src/test/java/com/demo/$04zookeeper/ZkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$04flume/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$04flume/src/main/java/$05flume/interceptor/FlumeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$04flume/src/main/java/$05flume/offlineinterceptor/ETLInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$04flume/src/main/java/$05flume/offlineinterceptor/JsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$04flume/src/main/java/$05flume/offlineinterceptor/MyTimestampInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$04flume/src/main/java/$05flume/offlineinterceptor/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$04flume/src/main/java/$05flume/sink/MySink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$04flume/src/main/java/$05flume/source/MySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$05kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$05kafka/src/main/java/$06kafka/consumer/ConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$05kafka/src/main/java/$06kafka/producer/ProducerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$06hbase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$06hbase/src/main/java/$07hbase/base/HbaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$06hbase/src/main/java/$07hbase/base/MyCoprocessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$06hbase/src/main/java/$07hbase/base/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$06hbase/src/main/java/$07hbase/phoenix/PhoenixJdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$07redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$07redis/src/main/java/$08redis/JedisClusterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$07redis/src/main/java/$08redis/JedisDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$07redis/src/main/java/$08redis/JedisPollDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$07redis/src/main/java/$08redis/JedisSentinel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/datas/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/datas/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/datas/allprovince.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/datas/product.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/datas/user_visit_action.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/datas/wc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/Test1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/Test2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/Test3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter01/AA.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter01/HelloWorld.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter02/$01_Comment.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter02/$02_ParamName.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter02/$03_ParamDefined.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter02/$04_String.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter02/$05_StdIn.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter02/$06_DataType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter02/$07_DataTypeCover.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter03/$01_Comment.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter04/$01_Block.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter04/$02_If.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter04/$03_For.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter04/$04_WhileAndDoWhile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter04/$05_BreakAndContinue.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$01_MethodDefined.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$02_MethodSample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$03_MethodParam.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$04_FunctionDefined.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$05_FunctionAndMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$06_HightFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$07_HightFunctionSample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$08_NoNameFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$09_Test1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$10_Test2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$11_Test3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$12_Test4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$13_Test5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$14_Currying.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$15_ClosePackage.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$16_Recursion.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$17_Lazy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter05/$18_ControlAbstract.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$01_ClassDefined.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$02_ClassDefinedFieldAndMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$03_Contruct.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$04_Private.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$05_Extends.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$06_Package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$07_AbstractClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$08_SingleObject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$09_ObjectAndClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$10_TraitDefined.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$11_ManyTraitExtends.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$12_Self.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$13_TypeCheck.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$14_Emu.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/$15_NewType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter06/package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$01_ImmutableArray.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$02_MutableArray.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$03_ImmutableList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$04_MutableList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$05_ImmutableSet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$06_MutableSet.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$07_Tuple.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$08_ImmutableMap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$09_MutableMap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$10_ImmutableQueue.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$11_MutableQueue.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$12_CollectionField.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$13_CollectionToCollection.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$14_CollectionLowFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$15_CollectionHightFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$16_WordCountLow.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$17_WordCountHight.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter07/$18_ParCollection.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$01_MatchDefined.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$02_MatchIf.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$03_MatchValue.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$04_MatchType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$05_MatchArray.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$06_MatchList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$07_MatchTuple.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$08_MatchParam.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$09_PartialFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter08/$10_MatchObject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter09/$01_Exception.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter10/$01_ImplicitDefined.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter10/$02_ImplicitParam.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter10/$03_ImplicitClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter12/$01_GenericDefined.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter12/$02_GenericClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter12/$03_GenericLowHight.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter12/$04_GenericChange.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/chapter12/$05_GenericContext.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/test/function/OtherTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/test/function/ScalaHomeWork.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/test/function/Test01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/test/function/WordCountExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$08scala/src/main/java/$09scala/test/leetcode/DupliNumber.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/datas/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/datas/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/datas/allprovince.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/datas/product.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/datas/user_visit_action.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/datas/wc.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/Tes02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/homework/SparkTest02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/homework/SparkTest03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/homework/SparkTest04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/homework/SparkTest05.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/homework/SparkTest06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/homework/SparkTest07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/homework/SparkTest1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/homework/entity/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day01/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day01/WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day01/WordCountJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day02/$01_RDDCreate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day02/$01_RDDCreateJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day02/$02_RDDPartitions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day03/$01_Transformation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day03/$02_Transformation2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day04/$01_Transformation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day04/$02_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day04/$03_Action.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$01_ClosePackage.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$02_SparkClosePackage.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$03_SparkSer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$04_RDDLineage.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$05_Dependency.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$06_RddCache.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$07_Checkpoint.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$08_FileReadWrite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$09_Accumulator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/$10_UserDefinedAccumulator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day05/WordCountAccumulator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/$01_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/$02_BroadCast.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/$03_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/$04_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/$05_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/$06_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/$07_Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/ProductAccumulator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/Top10Accumulator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day07/$01_SparkSession.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day07/$02_DataFrameCreate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day07/$02_DattaFrameMode.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day07/$03_DataSetCreate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day07/$04_RddDataSetDataFrameCover.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/day01/WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/day02/RDDRelevant.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/sparkCore/$02transaction/MyPartition.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/sparkCore/$02transaction/RDDTransaction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/sparkCore/$03action/RDDAction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/sparkCore/$04Serializer/RDDCacheAndDependency.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/sparkCore/$04Serializer/RDDSerializer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/sparkCore/$05aggregate/Myaggerator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/sparkCore/$05aggregate/TestMyAggera.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/sparkSql/$01createSparkSession.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$09spark/src/main/java/com/demo/training/sparkSql/$02createDataFrame.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$10azkaban/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$10azkaban/src/main/java/com/demo/AzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$10azkaban/src/main/java/com/demo/TestProcess1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/RealtimeProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/entity/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/logandfastjson/LogAndFastJsonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/tdemo/mybatis/MyBatisDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/tdemo/pojo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$11springBoot-demo/src/test/java/com/demo/$11realtimeProjectApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__ognl_ognl_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_aop_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_beans_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_context_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_core_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_expression_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_test_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_tx_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_web_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_14_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_thymeleaf_thymeleaf_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_2_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_unbescape_unbescape_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/java/com/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/java/com/demo/controller/DictController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/java/com/demo/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/java/com/demo/utils/GetDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/java/com/demo/utils/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/china.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/css/custom-styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontba72.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontba72.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontba72.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontba72.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/geo/china.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/chart-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/china.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/custom-scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/dataTables/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/dataTables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/easypiechart-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/easypiechart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/jquery.metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/static/assets/js/morris/raphael-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/templates/chart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/templates/empty.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/templates/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/templates/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/templates/tab-panel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/templates/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/main/resources/templates/ui-elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/dw-chart/src/test/java/com/demo/DemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/es-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/es-demo/src/main/java/com/demo/EsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/es-demo/src/main/java/com/demo/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_canal/gmall_canal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_canal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_canal/src/main/java/com/demo/MyCanalClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_canal/src/main/java/com/demo/MyProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_common/src/main/java/com/demo/constants/CommonConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/src/main/java/com/demo/GmallLoggerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/src/main/java/com/demo/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/src/main/java/com/demo/controller/TestStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_logger/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_mock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_mock/src/main/java/com/demo/JsonMocker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_mock/src/main/java/com/demo/logger/LogUploader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_mock/src/main/java/com/demo/utils/RanOpt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_mock/src/main/java/com/demo/utils/RandomDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_mock/src/main/java/com/demo/utils/RandomNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_mock/src/main/java/com/demo/utils/RandomOptionGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/GmallPubsherApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/controller/PublisherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/dao/ESDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/dao/EsDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/entity/DAU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/entity/DAUExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/entity/DAUKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/entity/DAUPreHour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/entity/GMVPreHour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/entity/Option.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/entity/SaleDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/entity/Stat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/mapper/DAUMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/mapper/GMVMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/service/Impl/PublisherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/service/PublisherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/resources/mapper/DAUMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/resources/mapper/GMVMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/dau.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/app/BaseApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/app/DAUApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/app/GMVApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/entity/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/entity/StartUpLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/utils/MykafkaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/utils/PhoenixUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/utils/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/utils/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/gmv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/预警.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/BaseApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/DAUApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/GMVApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/OrderDetailApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/UserApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/WarnApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/entity/CouponAlertInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/entity/EventLog.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/entity/OrderDetail.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/entity/OrderInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/entity/SaleDetail.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/entity/StartUpLog.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/entity/UserInfo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/utils/DateTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/utils/MyEsUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/utils/MykafkaUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/utils/PropertiesUtil.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/$12gmall-realtime/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/gmall_logger_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/368ceca8-5f15-4ebc-aea7-939028c33dc4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/90a4f369-5c41-4936-8999-a743af0e2add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/90a4f369-5c41-4936-8999-a743af0e2add/storage_v2/_src_/schema/gmall.-3reBQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/90a4f369-5c41-4936-8999-a743af0e2add/storage_v2/_src_/schema/gmall.-3reBQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/90a4f369-5c41-4936-8999-a743af0e2add/storage_v2/_src_/schema/gmall_realtime.L477CQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/90a4f369-5c41-4936-8999-a743af0e2add/storage_v2/_src_/schema/gmall_realtime.L477CQ.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/90a4f369-5c41-4936-8999-a743af0e2add/storage_v2/_src_/schema/gmallrealtime.Zv2mEA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/90a4f369-5c41-4936-8999-a743af0e2add/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/90a4f369-5c41-4936-8999-a743af0e2add/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/90a4f369-5c41-4936-8999-a743af0e2add/storage_v2/_src_/schema/sys.zb4BAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven-repo-new\repo" />
+        <option name="mavenHome" value="D:\maven\apache-maven-3.5.4-bin\apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.4-bin\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="myCanGoOffline" value="false" />
+    <option name="ENABLED" value="false" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1sz0tQOhMivyfD7AtFIih92Vtvc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="hive&#10;mysql&#10;07294833-6b5d-4b63-aefc-993f4b3311ba" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28702852" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkpace\bigData\$12gmall-realtime\gmall_realtime\readme" />
+      <recent name="D:\ideaWorkpace\bigData\$12gmall-realtime" />
+      <recent name="D:\ideaWorkpace\bigData\$11real-demo\src\main\resources" />
+      <recent name="D:\ideaWorkpace\bigData\$11real-demo\src\main\java\com\demo" />
+      <recent name="D:\ideaWorkpace\bigData\$01hadoop\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.demo.app" />
+      <recent name="com.demo" />
+      <recent name="com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkpace\bigData\$12gmall-realtime\gmall_realtime\src\main\resources" />
+      <recent name="D:\ideaWorkpace\bigData\$12gmall-realtime\gmall_pubsher\src\main\resources" />
+      <recent name="D:\ideaWorkpace\bigData\$09spark\src\main\java\com\demo\tdemo\day06" />
+      <recent name="D:\ideaWorkpace\bigData\$12realtime-project\gmall_logger\src\main\resources" />
+      <recent name="D:\ideaWorkpace\bigData\$11real-demo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GmallPubsherApplication">
+    <configuration name="MyCanalClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.MyCanalClient" />
+      <module name="gmall_canal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderDetailApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.app.OrderDetailApp" />
+      <module name="gmall_realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.controller.TestStart" />
+      <module name="gmall_logger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.app.UserApp" />
+      <module name="gmall_realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarnApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.demo.app.WarnApp" />
+      <module name="gmall_realtime" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="$11real-demo [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-X" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" value="-e" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/$11real-demo" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="GmallLoggerApplication " type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall_logger" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.GmallLoggerApplication" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallPubsherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall_pubsher" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.GmallPubsherApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RealtimeProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="$11springBoot-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.demo.RealtimeProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WarnApp" />
+      <item itemvalue="Application.MyCanalClient" />
+      <item itemvalue="Application.UserApp" />
+      <item itemvalue="Application.OrderDetailApp" />
+      <item itemvalue="Application.TestStart" />
+      <item itemvalue="Maven.$11real-demo [mybatis-generator:generate]" />
+      <item itemvalue="Spring Boot.GmallLoggerApplication " />
+      <item itemvalue="Spring Boot.GmallPubsherApplication" />
+      <item itemvalue="Spring Boot.RealtimeProjectApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OrderDetailApp" />
+        <item itemvalue="Application.UserApp" />
+        <item itemvalue="Application.TestStart" />
+        <item itemvalue="Application.MyCanalClient" />
+        <item itemvalue="Application.WarnApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\sijue\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6c218c8-48e0-4bd6-8497-359935dcdb2b" name="Default Changelist" comment="" />
+      <created>1621860379071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621860379071</updated>
+      <workItem from="1621860380345" duration="8218000" />
+      <workItem from="1621902842165" duration="9137000" />
+      <workItem from="1621914010738" duration="41363000" />
+      <workItem from="1622010333483" duration="7805000" />
+      <workItem from="1622019267216" duration="4520000" />
+      <workItem from="1622024328464" duration="37690000" />
+      <workItem from="1622190746622" duration="57066000" />
+      <workItem from="1622383596508" duration="7159000" />
+      <workItem from="1622431880460" duration="1057000" />
+      <workItem from="1622439974948" duration="9452000" />
+      <workItem from="1622463002285" duration="10902000" />
+      <workItem from="1622509363110" duration="32097000" />
+      <workItem from="1622613917075" duration="21659000" />
+      <workItem from="1622681195410" duration="6760000" />
+      <workItem from="1622705428322" duration="4228000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/$12gmall-realtime/dw-chart" />
+    </ignored-roots>
+    <MESSAGE value="大数据基本代码提交，一个技术一个包，bigData是所有$开始的工程的父工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="大数据基本代码提交，一个技术一个包，bigData是所有$开始的工程的父工程" />
+  </component>
+  <component name="VcsOperationLog">
+    <option name="operations">
+      <list>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/etl/ETLMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/demo/ArgsDemo.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/demo/DebugDemo.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/logetl/LogEtlDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/logetl/LogEtlMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combine/WCDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$01hdfs/HdfsClient$demo.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combine/WCMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combine/WCReducer.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/FlowBean.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/hdfs/edit_ins.xml" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/FlowCountMap.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/FlowCountReduce.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/FlowCountDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/sort/SortMain.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/sort/SortMap.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/sort/SortReduce.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/sort/SortInnerPartition.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/combiner/MapCombiner.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/flowsum/partition/MyPartition.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/OrderBean.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/MapDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/OrderMapJoin.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/OrderDriverJoin.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$01hdfs/HDFSDemo2.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/mapjoin/MapMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combiner/WCReducer.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$01hdfs/HdfsClient.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combiner/WCMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$01hdfs/HDFSDemo.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combiner/WCCombiner.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/combiner/WCDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/compress/CompressTest.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable/FlowBean.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition/WCDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/logetl/LogEtlMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition/WCMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/combine/WCDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition/WCReducer.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/demo/DebugDemo.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCDriver3.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/logetl/LogEtlDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCReducer.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordMap.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/FlowBean.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordcountDriver4.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/combine/WCMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordReduce.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/combine/WCReducer.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordcountDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordCombineFileDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCDriver2.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordcountDriver2.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/etl/ETLMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WCMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/demo/ArgsDemo.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/wordcount/WordcountDriver3.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable2/FlowDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/hdfs/edit-new.xml" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/etl/ETLDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable2/FlowMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/combiner/WCCombiner.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable2/FlowBean.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/combiner/WCDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/writable2/FlowReducer.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/mapjoin/OrderDriverJoin.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable/FlowDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/mapjoin/OrderMapJoin.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable/FlowMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/compress/CompressTest.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable/FlowBean.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/writable/FlowBean.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable/FlowReducer.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/combiner/WCMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/MyOutputFormat.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/combiner/WCReducer.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/LogReduce.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/FlowCountReduce.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/FileRecordWriter.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/LogMap.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/FlowCountDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputDemo/LogDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/FlowCountMap.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/FlowDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/mapjoin/MapMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/MyPatititoner.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/mapjoin/OrderBean.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/FlowMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/FlowBean.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/mapjoin/MapDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/partition2/FlowReducer.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WordcountDriver2.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderBean.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WordcountDriver3.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderReduce.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WordCombineFileDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/ReduceMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WordcountDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/ReduceDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WordReduce.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderMap.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/writable2/FlowBean.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderComparator.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WordcountDriver4.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/ReduceReducer.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WordMap.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/OrderDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/partition/WCReducer.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/reducejoin/ReduceGroup.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WCDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/FlowDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/partition/WCDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/MyPartitioner.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/partition/WCMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/FlowMapper.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WCMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/FlowBean.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WCReducer.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/comparable2/FlowReducer.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WCDriver2.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputformat/MyRecordWriter.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/wordcount/WCDriver3.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputformat/MyOutputFormat.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/outputDemo/LogReduce.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/outputformat/OutDriver.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/outputDemo/MyOutputFormat.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/outputDemo/LogDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/resources/hdfs/hdfs-site.xml" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/outputDemo/LogMap.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/resources/hdfs/edit_ins.xml" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/partition2/FlowMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/resources/hdfs/edit-new.xml" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/partition2/FlowReducer.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/resources/hdfs/fsimage.xml" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/partition2/FlowBean.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/partition2/FlowDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/writable2/FlowReducer.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/comparable/FlowBean.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/test/java/com/demo/HdfsClient.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/writable2/FlowDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/writable2/FlowMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/comparable/FlowReducer.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/test/java/com/demo/$02mapreduce/demo/UsuallyTest.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/outputDemo/FileRecordWriter.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/test/java/com/demo/$02mapreduce/compress/CompressTest.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/comparable/FlowDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/comparable/FlowMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/comparable2/FlowBean.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/comparable2/FlowDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/reducejoin/ReduceMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/reducejoin/ReduceReducer.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/comparable2/MyPartitioner.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/outputformat/MyOutputFormat.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/comparable2/FlowMapper.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/comparable2/FlowReducer.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/reducejoin/OrderComparator.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/reducejoin/OrderDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/partition2/MyPatititoner.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/reducejoin/OrderBean.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/reducejoin/ReduceDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/reducejoin/ReduceGroup.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/reducejoin/OrderMap.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/reducejoin/OrderReduce.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/hdfs/hdfs-site.xml" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/sort/SortInnerPartition.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/sort/SortMain.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/outputformat/MyRecordWriter.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/outputformat/OutDriver.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/combiner/MapCombiner.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/partition/MyPartition.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/sort/SortMap.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/$02mapreduce/flowsum/sort/SortReduce.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/pom.xml" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/test-classes/com/demo/HdfsClient.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$01hdfs/HDFSDemo2.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$01hdfs/HDFSDemo.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$01hdfs/HdfsClient.java" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/classes/hdfs/fsimage.xml" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/test-classes/com/demo/$02mapreduce/compress/CompressTest.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/target/test-classes/com/demo/$02mapreduce/demo/UsuallyTest.class" />
+        </P4AddOperation>
+        <P4AddOperation>
+          <option name="changeList" value="Default Changelist" />
+          <option name="path" value="$PROJECT_DIR$/$01hadoop/src/main/java/$02mapreduce/etl/ETLDriver.java" />
+        </P4AddOperation>
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="582" y="183" key="#Inspections" timestamp="1621931261436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="183" key="#Inspections/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621931261436" />
+    <state x="312" y="0" key="#Project_Structure" timestamp="1622029357475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="312" y="0" key="#Project_Structure/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622029357475" />
+    <state x="687" y="266" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1622624319187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="211" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1622472512495" />
+    <state x="687" y="266" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622624319187" />
+    <state x="451" y="43" width="1133" height="997" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622465716812">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="361" y="63" width="1111" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1622378486819" />
+    <state x="451" y="43" width="1133" height="997" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622465716812" />
+    <state x="663" y="418" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1622457243626">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="418" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622457243626" />
+    <state x="460" y="146" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1622706830605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="460" y="146" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622706830605" />
+    <state x="659" y="64" width="591" height="976" key="#com.intellij.ide.util.MemberChooser" timestamp="1622636497366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="527" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1622473863228" />
+    <state x="659" y="64" width="591" height="976" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622636497366" />
+    <state x="681" y="282" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1622465512025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="282" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622465512025" />
+    <state x="736" y="430" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1622079719620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="589" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1621865128102" />
+    <state x="736" y="430" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622079719620" />
+    <state x="677" y="366" width="566" height="320" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1622598205001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="366" width="566" height="320" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622598205001" />
+    <state x="624" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622457631139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622457631139" />
+    <state x="624" y="207" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1621989793729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="207" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621989793729" />
+    <state x="555" y="0" width="1500" height="626" key="#xdebugger.evaluate" timestamp="1622624244241">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="36" y="106" width="1500" height="626" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1622471278807" />
+    <state x="555" y="0" key="#xdebugger.evaluate/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622624244241" />
+    <state x="486" y="28" key="CommitChangelistDialog2" timestamp="1622709821207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="486" y="28" key="CommitChangelistDialog2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622709821207" />
+    <state width="496" height="582" key="DebuggerActiveHint" timestamp="1622637048104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="474" height="462" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1622391531742" />
+    <state width="496" height="582" key="DebuggerActiveHint/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637048104" />
+    <state x="650" y="327" key="DetectedRootsChooserDialog" timestamp="1622457876626">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="520" y="259" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1622303896813" />
+    <state x="650" y="327" key="DetectedRootsChooserDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622457876626" />
+    <state x="687" y="162" key="FileChooserDialogImpl" timestamp="1622708664941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="128" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622303887081" />
+    <state x="687" y="162" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622708664941" />
+    <state width="1867" height="343" key="GridCell.Tab.0.bottom" timestamp="1622637032650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622476059084" />
+    <state width="1867" height="343" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637032650" />
+    <state width="1867" height="343" key="GridCell.Tab.0.center" timestamp="1622637032650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622476059084" />
+    <state width="1867" height="343" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637032650" />
+    <state width="1867" height="343" key="GridCell.Tab.0.left" timestamp="1622637032650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622476059084" />
+    <state width="1867" height="343" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637032650" />
+    <state width="1867" height="343" key="GridCell.Tab.0.right" timestamp="1622637032650">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622476059084" />
+    <state width="1867" height="343" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637032650" />
+    <state width="1867" height="343" key="GridCell.Tab.1.bottom" timestamp="1622637041715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="234" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622476058454" />
+    <state width="1867" height="343" key="GridCell.Tab.1.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637041715" />
+    <state width="1867" height="343" key="GridCell.Tab.1.center" timestamp="1622637041715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="234" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622476058454" />
+    <state width="1867" height="343" key="GridCell.Tab.1.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637041715" />
+    <state width="1867" height="343" key="GridCell.Tab.1.left" timestamp="1622637041715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="234" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622476058454" />
+    <state width="1867" height="343" key="GridCell.Tab.1.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637041715" />
+    <state width="1867" height="343" key="GridCell.Tab.1.right" timestamp="1622637041715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="234" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622476058454" />
+    <state width="1867" height="343" key="GridCell.Tab.1.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637041715" />
+    <state width="1867" height="343" key="GridCell.Tab.2.bottom" timestamp="1622637032297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="234" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622476058454" />
+    <state width="1867" height="343" key="GridCell.Tab.2.bottom/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637032297" />
+    <state width="1867" height="343" key="GridCell.Tab.2.center" timestamp="1622637032296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="234" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1622476058454" />
+    <state width="1867" height="343" key="GridCell.Tab.2.center/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637032296" />
+    <state width="1867" height="343" key="GridCell.Tab.2.left" timestamp="1622637032296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="234" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1622476058454" />
+    <state width="1867" height="343" key="GridCell.Tab.2.left/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637032296" />
+    <state width="1867" height="343" key="GridCell.Tab.2.right" timestamp="1622637032297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1483" height="234" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1622476058454" />
+    <state width="1867" height="343" key="GridCell.Tab.2.right/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622637032297" />
+    <state width="328" height="695" key="HiddenNamespacesPopup" timestamp="1622271078129">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="262" height="550" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1621866971097" />
+    <state width="328" height="695" key="HiddenNamespacesPopup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622271078129" />
+    <state x="374" y="91" key="Maven.ArtifactSearchDialog" timestamp="1622455494082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="374" y="91" key="Maven.ArtifactSearchDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622455494082" />
+    <state x="529" y="159" key="NewModule_or_Project.wizard" timestamp="1621860431965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="529" y="159" key="NewModule_or_Project.wizard/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1621860431965" />
+    <state x="32" y="57" key="SettingsEditor" timestamp="1622709940941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="32" y="57" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622709940941" />
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2" timestamp="1622709363722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="452" y="188" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622709363722" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1622636987400">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1622378910490" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622636987400" />
+    <state x="676" y="222" key="chooseDestDirectoryDialog" timestamp="1622182719185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="541" y="176" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1621953590399" />
+    <state x="676" y="222" key="chooseDestDirectoryDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622182719185" />
+    <state x="835" y="351" width="659" height="337" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1622252739859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="835" y="351" width="659" height="337" key="com.intellij.database.actions.DdlActions$CreateObject$1/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622252739859" />
+    <state x="682" y="347" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1622392731375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="682" y="347" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1536.824@0.0.1536.824" timestamp="1622392731375" />
+    <state x="335" y="193" width="1250" height="749" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1622464459953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="335" y="193" width="1250" height="749" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622464459953" />
+    <state x="498" y="110" width="925" height="821" key="find.popup" timestamp="1622013981728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="398" y="87" width="740" height="650" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1621871174505" />
+    <state x="498" y="110" width="925" height="821" key="find.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622013981728" />
+    <state x="714" y="406" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1622708887280">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="406" key="git4idea.remote.GitConfigureRemotesDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622708887280" />
+    <state x="136" y="71" key="new project wizard" timestamp="1622509425678">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1622388620467" />
+    <state x="136" y="71" key="new project wizard/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622509425678" />
+    <state x="532" y="244" width="840" height="1034" key="run.anything.popup" timestamp="1622545301784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="426" y="193" width="672" height="820" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1622354584887" />
+    <state x="532" y="244" width="840" height="1034" key="run.anything.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622545301784" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1622688331964">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="431" y="4" width="840" height="820" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622392335085" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622688331964" />
+    <state x="749" y="261" key="svn.repositoryBrowser" timestamp="1622705103249">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="261" key="svn.repositoryBrowser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622705103249" />
+    <state x="663" y="418" key="svn4idea.import.options" timestamp="1622705102396">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="418" key="svn4idea.import.options/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1622705102396" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/controller/UserController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/$11springBoot-demo/src/main/java/com/demo/logandfastjson/LogAndFastJsonDemo.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/app/DAUApp.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/app/DAUApp.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/readme/demo/app/DAUApp.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_pubsher/src/main/java/com/demo/controller/PublisherController.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_canal/src/main/java/com/demo/MyCanalClient.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/$09spark/src/main/java/com/demo/tdemo/day06/$07_Test.scala</url>
+          <line>42</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/WarnApp.scala</url>
+          <line>112</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/OrderDetailApp.scala</url>
+          <line>38</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/OrderDetailApp.scala</url>
+          <line>72</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/OrderDetailApp.scala</url>
+          <line>68</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/OrderDetailApp.scala</url>
+          <line>42</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/$12gmall-realtime/gmall_realtime/src/main/scala/com/demo/app/OrderDetailApp.scala</url>
+          <line>60</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.spark.streaming.kafka010.Subscribe" memberName="kafkaParams" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dw_chart$WarnApp.ic" NAME="WarnApp Coverage Results" MODIFIED="1622542796715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.demo.app.*</FILTER>
+    </SUITE>
+  </component>
+</project>

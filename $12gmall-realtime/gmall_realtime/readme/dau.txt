@@ -1,0 +1,31 @@
+1.需求：
+    每日访问用户数量
+    用户---->设备
+2.数据源：
+    数据源：startup_log
+    上表的粒度：一个设备的一次启动时一行
+    目标的粒度：一个设备的数据的第一条记录设置一条数据
+    核心处理：去重
+    去重的实现：sparkStreaming中有状态的计算
+        有状态：当前批次的计算需要使用前一个批次计算的结果
+              如何存前一个批次的状态：自行将前一个批次的状态存入一个可持久话设备
+        当前批次去重：一个设备
+        后续的批次去重：后续批次去重，需要使用前一个批次的状态，进行判断，当前设备是不是当日第一个次访问，如果是就去重，如果不是就保存
+3.计算流程
+    获取kafka中的数据，读取startEvent主题获取DS
+    将DS中的jsonstr转换为startup_log对象
+        ETL清洗状态
+    对当前批次去重
+    获取前一个批次的数据去重
+    将去重之后的数据保存在NoSql数据库【存在Redis】，保存状态，以备下一次收益【因为sparkSteaming保存数据会出现小文件】
+    将每个设备的每天的第一条的启动日志数据数据写入Hbase
+4.sparkStreaming    app的计算流程
+        new sparkstreamingCOntext----->获取DS----->DS各种转换【DS提供的算子[窗口算子]或者RDD提供和的算子】
+        RDD transform算子和action算子(比如foreach、一般位于计算流程的末尾，比如数据库存储数据)
+        DS调用RDD算子：DS--->RDD转换(.RDD)RDD
+        RDD转换DS：RDD--->DS转换
+    sparkStreaming.start()
+    sparkStreaming.a() //阻塞sparkStreaming程序
+5.控制抽象
+    因为多个需求的开始和需求是一样的，所以开始和启动之间的程序单独实现;
+   比如Break.breaks

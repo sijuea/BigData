@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hive" uuid="232dbcf6-1065-40de-b253-bae8ab3a6a9e">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://hadoop102:10000/gmall</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="mysql" uuid="90a4f369-5c41-4936-8999-a743af0e2add">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://hadoop102:3306</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="phoneix -hbase" uuid="368ceca8-5f15-4ebc-aea7-939028c33dc4">
+      <driver-ref>07294833-6b5d-4b63-aefc-993f4b3311ba</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.apache.phoenix.jdbc.PhoenixDriver</jdbc-driver>
+      <jdbc-url>jdbc:phoenix:hadoop102,hadoop103,hadoop104:2181</jdbc-url>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+1.需求分析
+    统一设备，在5分钟之内，用三个或者三个不同的账号登录，并且领取了优惠券，且没有浏览商品
+2.预警的条件
+    前提：同一设备。每分钟最多产生一条预警日志
+        举例：16:35:01 预警日志1
+            16:35:30 预警日志2
+           生成两条，但是只记录一条【选择保存最晚的】，即使用mid+min最为主键保存数据
+    满足数据的条件
+        统计最近5分钟的数据
+        以设备为单位，首先这个设备至少有最近5分钟登录3个及以上的不同用户
+        每次登录的userid都必须领取优惠券且不能浏览商品
+            【解释(3)：每个设备，某个用户登录之后，可能生产多条数据，
+                这些多条数据中（list），只要有浏览数据，那么整个list数据都会舍弃】
+3.思路
+    来源：用户行为的时间日志[event_log主题]
+        【用户行为JsonMocker.eventOpts ，修改 new RanOpt("clickItem", 20),】
+    kafka消费数据----->
+    根据预警条件判断数据筛选出预警日志
+    ---->创建预警日志样例对象对象--->写入ES【index，type】
+4代码流程
+    (1)从kafka读取数据     [event_log主题读取]
+        解析json数据转换为EventLog样例类{基于ts获取logDate、logHour}
+    (2)使用开窗函数，统计最近5分钟的用户---->
+        .map（key：mid+user_id，log样例类为value）【key-value类型】
+        groupByKey 对mid+user_id进行分组【返回每个设备下，每个用户在5分钟之内的所有行为数据data1<List>】
+            .filter筛选data1中领取优惠券和没有浏览商品的数据
+        此处使用foreach【加一个预警标志boolean b=false】，遍历list的data数据，判断里面的数据是否存的浏览商品（clickItem）行为
+            1.如果存在，b=false，循环结束break()
+            2.if不存在， 所有的数据都只是领取优惠券【coupon】，b=true
+            3.判断预警的标志，如果预警标志=true，就返回
+         将上步得出的数据按照设备id（mid）进行分组，判断分组之后的用户数量是否>=3
+            {mid1:{log1,log2},mid1:{log3,log3}}====>分组之后mid{{log1,log2,log3,log3}}
+            筛选分组之后的数据的value.size>=3
+           对判断之后的数据进行扁平化处理==>{mid:{log1,log2,lo3,log4}}
+         ----创建预警样例类 （Java中的Set类型，在ES中比较美观，scala的set集合在es难看）
+            将数据转换为样例类
+        ----测试:zk，kafka，gmall_logger【启动】、【gmall_mock】jacksonMocker启动、
+            【gmall_realtime】启动预警App程序
+        (3)写入ES
+           前提：建好索引模板
+           将(2)得出的数据转换为一下入参的格式{map}
+            调用MyEsUtil.insertBulk("前缀"+now(),partition.toList)添加数据到ES【按照分区进行写入】
+                入参：id=mid+当前分钟
+            查询数据  get /索引模板公共的别名/search
+        (4)ES图表可视化 visualize ---> 【Index pattern：gmall_coupon_alert*】
+            将生成的图表点击页面的Inspect，生成html代码【发给前端人员，前端可以自己加载，那么这个就是内联框架】，或者图标的url，
+
